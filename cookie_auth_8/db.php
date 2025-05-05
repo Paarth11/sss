@@ -12,3 +12,5 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
+<!-- INSERT INTO users (name, email, username, password) VALUES 
+('Admin', 'admin@example.com', 'admin', 'admin123'); -->

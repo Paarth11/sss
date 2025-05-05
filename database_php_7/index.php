@@ -1,7 +1,6 @@
 <?php
 include 'db.php';
 
-// Insert Data
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -15,7 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-// Fetch Data
 $sql = "SELECT * FROM users";
 $result = $conn->query($sql);
 ?>
